@@ -1,0 +1,41 @@
+body{
+    background-image: url(sun.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .box{
+    display: flex;
+    justify-content: center;
+    padding-top: 45%;
+    width: 100vw;
+    height: 100vh;
+}
+.box2{
+    width: 8rem;
+    height: 5rem;
+    background-color: black;
+} */
+h1{
+    color: rgb(61, 53, 53);
+    animation-name: h1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes h1 {
+    0%{
+        color: blue;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        color: chartreuse;
+    }
+    75%{
+        color: rgb(4, 33, 34);
+    }
+    100%{
+        color: yellowgreen;
+    }
+    
+}
