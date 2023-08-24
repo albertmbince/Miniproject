@@ -180,7 +180,7 @@ img{
     transform: translateY(20%);
     transition: .6s;
 }
-.heading:hover{ 
+.heading:hover + .hover{ 
     transform: translateY(20%);
     transform: scale(1.3);
     color: red;
@@ -206,4 +206,12 @@ img{
     z-index: 6;
     width: 100%;
     height: 6cm;
+}
+.hover{
+    display: none;
+    width: 6cm;
+    height: 3cm;
+}
+.hover:hover{
+    transform: scale(1.2);
 }
