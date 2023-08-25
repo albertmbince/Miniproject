@@ -31,5 +31,5 @@ body{
 }
 .image:hover{
     transform: translateX(10%);
-    transition: .6s;
+    transition: 1.5s;
 }
