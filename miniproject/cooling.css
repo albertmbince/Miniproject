@@ -1,0 +1,11 @@
+button:hover{
+    color: red;
+    background-color: black;
+    transform: scale(1.3);
+   
+}
+img:hover{
+    transform: scale(1.3);
+    transform: translateX(20%);
+    transition: 1.2s;
+}
