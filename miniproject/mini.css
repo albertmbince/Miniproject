@@ -93,6 +93,7 @@ img{
     height: 5cm;
     background-color: rgba(44, 43, 44, 0.6);
     color: aliceblue;
+    border-radius: 10%;
 }
 .fimage{
     position:fixed;
